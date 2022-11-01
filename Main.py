@@ -26,7 +26,7 @@ class Stack:
             self.top -= 1
 
     def status(self):
-        # Write code here
+        # Write 
         for i in range(self.top+1):
             print(self.items[i])
 
